@@ -6,7 +6,7 @@ function Alerts(props) {
     }
 
   return (
-    props.Alerts && <div className="alert alert-warning alert-dismissible fade show" role="alert">
+    props.Alerts && <div className="alert alert-warning alert-dismissible fade showing to me" role="alert">
 
   <strong>{capitalize(props.Alerts.type)}</strong>:{capitalize(props.Alerts.msg)}
   

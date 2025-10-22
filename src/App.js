@@ -23,7 +23,7 @@ function App(props) {
   const toggleMode = () => {
     if(mode==='light'){
       setMode('dark');
-      document.body.style.backgroundColor='rgba(68, 97, 142, 1)';
+      document.body.style.backgroundColor='rgba(15, 38, 72, 1)';
       showalert("Dark mode has been enabled", "success");
     } else {
       setMode('light');
@@ -38,7 +38,7 @@ function App(props) {
 <Alert Alerts={alert} />
 <div className="container">
 
-<Textfrom showalert={showalert} heading="Enter the text for analysis"mode={mode}/>
+<Textfrom showalert={showalert} heading="Enter the text for analysis" mode={mode}/>
 {/* <About/> */}
 
 

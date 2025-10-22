@@ -7,11 +7,13 @@ export default function Textfrom(props){
     // console.log("uppercase was cliked"+text);
     let newtext=text.toUpperCase();
     setText(newtext);
+    props.showalert("Text converted to uppercase", "success");
   }
   const handleLowercaseClick=()=>{
     // console.log("uppercase was cliked"+text);
     let newtext=text.toLowerCase();
     setText(newtext);
+    props.showalert("Text converted to lowercase", "success");
   }
 
    const handleCleartextClick=()=>{
