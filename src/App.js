@@ -38,7 +38,7 @@ function App(props) {
 <Alert Alerts={alert} />
 <div className="container">
 
-<Textfrom showalert={showalert} heading="Enter the text for analysis" mode={mode}/>
+<Textfrom showalert={showalert} heading="Please Enter the text for analysis" mode={mode}/>
 {/* <About/> */}
 
 
